@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    background: #081b29;
+    color: #ededed;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+.navbar a :hover
+.navbar a.active {
+    color: #00abf0;
+}
+
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.Home-Content{
+    max-width: 600px;
+}
+
+.Home-Content h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.Home-Content p{
+    font-size: larger;
+}
+
+.Heading{
+    width: 90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.Heading h1{
+    font-size: 50px;
+    color: #00abf0;
+    margin-top: 60px;
+    position: relative;
+}
+
+.Heading h1 ::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display: block;
+    margin:0 auto
+}
+
+.Heading p{
+    font-size: larger;
+    margin-bottom: 35px; 
+    align-items: center;
+    flex: 1;
+}
+
+.Container{
+    width: 90%;
+    margin: 0 auto;
+    padding:10px 20px
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width:100% ;
+    height: auto;
+    display: block;
+    transition:0.5s ease;
+    
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.about-content p{
+    font-size: larger;
+    line-height: 1.5;
+}
+
+form{
+    font-size: 50px;
+   
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+.Contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    border-radius: 0.8rem;
+}
+
+.Contact-Box h2{
+    font-size: 50px;
+    color: #00abf0;
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+
+}
+.Contact-Box .input-field{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.btn{
+    border-radius:20px ;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #00abf0;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
